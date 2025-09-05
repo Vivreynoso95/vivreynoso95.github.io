@@ -1,70 +1,615 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exported Figma Design</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div class="macbook-pro-16-1-1">
-<p class="text-2"><span class="text-black">Designing Your Ideas</span></p>
-<p class="text-3"><span class="text-black">Hi, my name is Vivianne
+/* Add font files for Lohit Bengali */
+@font-face {
+  font-family: 'Lohit Bengali';
+  src: url('fonts/lohit-bengali.woff2') format('woff2'),
+       url('fonts/lohit-bengali.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-lohit-bengali: 'Lohit Bengali', sans-serif;
+  --font-family-lato: 'Lato', sans-serif;
+  --text-black: rgba(0, 0, 0, 1);
+  --text-white: rgba(255, 255, 255, 1);
+}
 
- Reynoso </span></p>
-<p class="text-4"><span class="text-black">My Projects</span></p>
-<p class="text-5"><span class="text-black">Projects </span></p>
-<p class="text-6"><span class="text-black">My Skill</span></p>
-<p class="text-7"><span class="text-black">About Me</span></p>
-<p class="text-8"><span class="text-black">Contact Me</span></p>
-<img src="images/ellipse-1-9.svg" class="ellipse-1-9" alt="ellipse-1" />
-<img src="images/ellipse-2-10.svg" class="ellipse-2-10" alt="ellipse-2" />
-<img src="images/rectangle-1-11.svg" class="rectangle-1-11" alt="rectangle-1" />
-<div class="rectangle-2-12"></div>
-<p class="text-13"><span class="text-black">Take a look at some of my work!</span></p>
-<p class="text-14"><span class="text-black">Take a look at some of my work!</span></p>
-<p class="text-15"><span class="text-black">Designing your ideas into intuitive experiences that seamlessly integrate into
+.text-black {
+  color: var(--text-black);
+}
 
- daily lives-enhancing engagement, usability, and accessibility</span></p>
-<p class="text-16"><span class="text-black">A platform to support immigrant survivors of violence oobtain greater access in the NYC legal justice system </span></p>
-<p class="text-17"><span class="text-black">A Johns Hopkins University developed financial education platform to financial literacy and stock insight in youth</span></p>
-<p class="text-18"><span class="text-black">EmPowered</span></p>
-<p class="text-19"><span class="text-black">Stocks in the Future</span></p>
-<img src="images/rectangle-3-20.png" class="rectangle-3-20" alt="rectangle-3" />
-<img src="images/rectangle-4-21.png" class="rectangle-4-21" alt="rectangle-4" />
-<p class="text-22"><span class="text-black">An award-winning humanitarian e-commerce site for artisanal goods and services</span></p>
-<p class="text-23"><span class="text-black">Aseel</span></p>
-<img src="images/rectangle-5-24.png" class="rectangle-5-24" alt="rectangle-5" />
-<p class="text-25"><span class="text-black">A website redesign for a prominent and agile medical billing company and their incredible insurance billing systems.
-</span></p>
-<p class="text-26"><span class="text-black">DCB Billing</span></p>
-<img src="images/rectangle-6-27.png" class="rectangle-6-27" alt="rectangle-6" />
-<p class="text-28"><span class="text-black">A gluten-free community recipe sharing app for a $65 million product industry!</span></p>
-<p class="text-29"><span class="text-black">Plate It Up!</span></p>
-<img src="images/rectangle-7-30.png" class="rectangle-7-30" alt="rectangle-7" />
-<p class="text-31"><span class="text-black">My Skill and Approach</span></p>
-<p class="text-32"><span class="text-black">I frequent the double-diamond method</span></p>
-<p class="text-33"><span class="text-black">UX Designer</span></p>
-<img src="images/rectangle-8-34.png" class="rectangle-8-34" alt="rectangle-8" />
-<p class="text-35"><span class="text-black">About Me</span></p>
-<p class="text-36"><span class="text-black">Let’s Connect!</span></p>
-<p class="text-37"><span class="text-black">Hi I'm Viv! A Bay Area-based and North Carolina-dual-resident designer and dog person who dabbles in welding and recreating dessert experiences with gluten and allergen free diet restrictions. In my free time, I volunteer as a community assistant at TheMade, and Stocks in the Future.</span></p>
-<img src="images/rectangle-9-38.png" class="rectangle-9-38" alt="rectangle-9" />
-<img src="images/line-1-39.svg" class="line-1-39" alt="line-1" />
-<div class="rectangle-10-40"></div>
-<div class="rectangle-12-41"></div>
-<div class="rectangle-13-42"></div>
-<div class="rectangle-14-43"></div>
-<div class="rectangle-11-44"></div>
-<p class="text-45"><span class="text-black">(Optional) Your Organization/Business Name</span></p>
-<p class="text-46"><span class="text-black">Message</span></p>
-<p class="text-47"><span class="text-black">Email</span></p>
-<p class="text-48"><span class="text-black">Last name</span></p>
-<div class="rectangle-15-49"></div>
-<p class="text-50"><span class="text-white">Message</span></p>
-</div>
+.text-white {
+  color: var(--text-white);
+}
 
-</body>
-</html>
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.ellipse-1-9 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(245, 215, 104, 1);
+  border: none;
+  outline: none;
+}
+
+.ellipse-2-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(245, 215, 104, 1);
+  border: none;
+  outline: none;
+}
+
+.rectangle-1-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(245, 215, 104, 1);
+  border: none;
+  outline: none;
+}
+
+.rectangle-2-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(94, 89, 207, 1);
+}
+
+.text-13 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-15 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-17 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-18 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-19 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-3-20 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+
+.rectangle-4-21 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+
+.text-22 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-23 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-5-24 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.text-25 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-26 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-6-27 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+
+.text-28 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-29 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-7-30 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+
+.text-31 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-32 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-33 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 33px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-8-34 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.text-35 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-36 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-37 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-9-38 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 360px;
+  width: 100%;
+  height: auto;
+}
+
+.line-1-39 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 1px solid rgba(128, 0, 128, 1);
+  border: none;
+  outline: none;
+}
+
+.rectangle-10-40 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-12-41 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-13-42 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-14-43 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-11-44 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.text-45 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-46 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-47 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-48 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-15-49 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(201, 6, 201, 1);
+  border-radius: 50px;
+}
+
+.text-50 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.macbook-pro-16-1-1 {
+@media (max-width: 1440px) {
+  .macbook-pro-16-1-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .macbook-pro-16-1-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
