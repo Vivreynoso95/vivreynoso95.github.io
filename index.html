@@ -1,168 +1,615 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
 
+/* Add font files for Lohit Bengali */
+@font-face {
+  font-family: 'Lohit Bengali';
+  src: url('fonts/lohit-bengali.woff2') format('woff2'),
+       url('fonts/lohit-bengali.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 :root {
   --font-family-lohit-bengali: 'Lohit Bengali', sans-serif;
   --font-family-lato: 'Lato', sans-serif;
   --text-black: rgba(0, 0, 0, 1);
   --text-white: rgba(255, 255, 255, 1);
-  --accent-yellow: rgba(245, 215, 104, 1);
-  --accent-purple: rgba(94, 89, 207, 1);
-  --accent-magenta: rgba(201, 6, 201, 1);
 }
 
-/* Reset */
+.text-black {
+  color: var(--text-black);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+
+/* CSS Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: var(--font-family-lato);
-  background: #fff;
-  color: var(--text-black);
-  line-height: 1.6;
+  width: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Layout helpers */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-/* --- Navigation --- */
-nav {
-  background: #fff;
-  padding: 1rem 0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-nav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-nav .logo {
-  font-weight: 700;
-  font-size: 1.2rem;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-nav a {
+.text-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
   text-decoration: none;
-  font-weight: 500;
+  text-transform: none;
   color: var(--text-black);
 }
 
-/* --- Hero --- */
-.hero {
-  text-align: center;
-  padding: 6rem 2rem;
-  background: var(--accent-yellow);
-}
-.hero h1 {
-  font-size: 3.5rem;
+.text-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
   font-weight: 700;
-}
-.hero p {
-  font-size: 1.25rem;
-  margin-top: 1rem;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
 }
 
-/* --- Projects --- */
-.projects {
-  padding: 4rem 2rem;
+.text-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
 }
-.projects h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 2rem;
+
+.text-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
 }
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+
+.text-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
 }
-.project-card {
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+.text-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
 }
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+
+.text-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lohit-bengali);
+  font-weight: normal;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
 }
-.project-card img {
+
+.ellipse-1-9 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(245, 215, 104, 1);
+  border: none;
+  outline: none;
+}
+
+.ellipse-2-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(245, 215, 104, 1);
+  border: none;
+  outline: none;
+}
+
+.rectangle-1-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(245, 215, 104, 1);
+  border: none;
+  outline: none;
+}
+
+.rectangle-2-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(94, 89, 207, 1);
+}
+
+.text-13 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-15 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-17 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-18 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-19 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-3-20 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
   width: 100%;
-}
-.project-card h3 {
-  font-size: 1.5rem;
-  margin: 1rem;
-}
-.project-card p {
-  margin: 0 1rem 1.5rem;
-  font-size: 1rem;
-  color: #555;
+  height: auto;
 }
 
-/* --- Skills --- */
-.skills {
-  padding: 4rem 2rem;
-  text-align: center;
-  background: var(--accent-purple);
+.rectangle-4-21 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+
+.text-22 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-23 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-5-24 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.text-25 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-26 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-6-27 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+
+.text-28 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-29 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 48px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-7-30 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+}
+
+.text-31 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-32 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-33 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 33px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-8-34 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.text-35 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-36 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 700;
+  font-size: 66px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-37 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-9-38 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 360px;
+  width: 100%;
+  height: auto;
+}
+
+.line-1-39 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 1px solid rgba(128, 0, 128, 1);
+  border: none;
+  outline: none;
+}
+
+.rectangle-10-40 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-12-41 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-13-42 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-14-43 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.rectangle-11-44 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.text-45 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-46 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-47 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.text-48 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-15-49 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(201, 6, 201, 1);
+  border-radius: 50px;
+}
+
+.text-50 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-lato);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  text-decoration: none;
+  text-transform: none;
   color: var(--text-white);
 }
-.skills h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-.skills img {
-  max-width: 400px;
-  margin-top: 2rem;
+
+.macbook-pro-16-1-1 {
+@media (max-width: 1440px) {
+  .macbook-pro-16-1-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 
-/* --- About --- */
-.about {
-  padding: 4rem 2rem;
-}
-.about h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-/* --- Contact --- */
-.contact {
-  padding: 4rem 2rem;
-  text-align: center;
-  background: var(--accent-magenta);
-  color: var(--text-white);
-}
-.contact h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-/* --- Footer --- */
-footer {
-  padding: 2rem;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #777;
-  background: #fafafa;
-}
-
-/* --- Responsive --- */
 @media (max-width: 768px) {
-  .hero h1 { font-size: 2.2rem; }
-  nav ul { gap: 1rem; }
+  .macbook-pro-16-1-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
 }
