@@ -1,45 +1,168 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Vivianne Reynoso — UX/Product Designer</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap');
 
-  <!-- Navigation -->
-  <nav>
-    <div class="container">
-      <a href="#home" class="logo">Vivianne Reynoso</a>
-      <ul class="nav-links">
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">My Skills</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-      </ul>
-    </div>
-  </nav>
+:root {
+  --font-family-lohit-bengali: 'Lohit Bengali', sans-serif;
+  --font-family-lato: 'Lato', sans-serif;
+  --text-black: rgba(0, 0, 0, 1);
+  --text-white: rgba(255, 255, 255, 1);
+  --accent-yellow: rgba(245, 215, 104, 1);
+  --accent-purple: rgba(94, 89, 207, 1);
+  --accent-magenta: rgba(201, 6, 201, 1);
+}
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <div class="container">
-      <h1>Hi, my name is <strong>Vivianne Reynoso</strong></h1>
-      <p>Designing your ideas into intuitive experiences that seamlessly integrate into daily lives—enhancing engagement, usability, and accessibility.</p>
-    </div>
-  </section>
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-family-lato);
+  background: #fff;
+  color: var(--text-black);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>My Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <img src="empowered.png" alt="EmPowered Project">
-          <h3>EmPowered</h3>
-          <p>A platform to support immigrant survivors of violence obtain greater access in the NYC legal justice system.</p>
-        </div>
-        <!-- Duplicate for other projects: DCB Billing, Aseel, Plate It Up!, Stocks In The Future -->
-      </div>
-    </div>
-  </section>
+/* Layout helpers */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* --- Navigation --- */
+nav {
+  background: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--text-black);
+}
+
+/* --- Hero --- */
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: var(--accent-yellow);
+}
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.hero p {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+/* --- Projects --- */
+.projects {
+  padding: 4rem 2rem;
+}
+.projects h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+.project-card img {
+  width: 100%;
+}
+.project-card h3 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.project-card p {
+  margin: 0 1rem 1.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* --- Skills --- */
+.skills {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--accent-purple);
+  color: var(--text-white);
+}
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.skills img {
+  max-width: 400px;
+  margin-top: 2rem;
+}
+
+/* --- About --- */
+.about {
+  padding: 4rem 2rem;
+}
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* --- Contact --- */
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: var(--accent-magenta);
+  color: var(--text-white);
+}
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* --- Footer --- */
+footer {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  background: #fafafa;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2.2rem; }
+  nav ul { gap: 1rem; }
+}
