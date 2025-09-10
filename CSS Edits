@@ -8,116 +8,122 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="portfolio-with">
-      <div class="menu">
-        <div class="left"></div>
-        <div class="right">
-          <div class="button-button"><div class="text-wrapper">Menu</div></div>
+    <div class="macbook-pro">
+      <div class="div">
+        <div class="text-wrapper">Designing Your Ideas</div>
+        <div class="overlap">
+          <div class="ellipse"></div>
+          <div class="ellipse-2"></div>
+          <img class="rectangle" src="img/rectangle-1.svg" />
+          <div class="rectangle-2"></div>
         </div>
-      </div>
-      <div class="section-header">
-        <div class="copy">
-          <div class="headline">
-            <p class="title">
-              <span class="span">Designing&nbsp;&nbsp;<br /></span> <span class="text-wrapper-2">Your Ideas</span>
+        <div class="frame">
+          <div class="flexcontainer">
+            <p class="text">
+              <span class="span">Hi, my name is Vivianne<br /></span>
             </p>
+            <p class="text"><span class="span"> Reynoso </span></p>
           </div>
-          <div class="chips">
-            <div class="chip"><div class="label">Hi, I’m Vivianne</div></div>
-          </div>
+          <p class="p">Take a look at some of my work!</p>
         </div>
-        <div class="visual"><img class="images" src="img/images.png" /></div>
-      </div>
-      <div class="section-main">
-        <div class="div">My Projects</div>
-        <div class="elements">
-          <div class="box">
-            <p class="p">
-              Designing your ideas into intuitive experiences that <br />seamlessly integrate into daily
-              <br />lives-enhancing engagement, usability, and accessibility
-            </p>
-          </div>
+        <div class="group">
+          <div class="text-wrapper-2">My Projects</div>
+          <p class="designing-your-ideas">
+            <span class="text-wrapper-3"
+              >Designing your ideas into intuitive experiences that seamlessly integrate into<br
+            /></span>
+            <span class="text-wrapper-4"><br /></span>
+            <span class="text-wrapper-3"> daily lives-enhancing engagement, usability, and accessibility</span>
+          </p>
         </div>
-      </div>
-      <div class="elements-wrapper">
-        <div class="elements-2">
-          <div class="box">
-            <div class="title-2">EmPowered</div>
-            <p class="description">
-              A platform to support immigrant survivors of violence obtain greater access in the NYC legal justice
-              system
-            </p>
-          </div>
-          <div class="box">
-            <div class="title-2">Stocks in the Future</div>
-            <p class="description">
-              A Johns Hopkins University developed financial education platform to financial literacy and stock insight
-              in youth
-            </p>
-          </div>
-          <img class="rectangle" src="img/rectangle-3.png" />
-          <img class="img" src="img/rectangle-5.png" />
+        <div class="group-2">
+          <div class="text-wrapper-5">EmPowered</div>
+          <p class="text-wrapper-6">
+            A platform to support immigrant survivors of violence oobtain greater access in the NYC legal justice system
+          </p>
+          <img class="img" src="img/image.png" />
         </div>
-      </div>
-      <div class="elements-wrapper">
-        <div class="elements-2">
-          <div class="box">
-            <div class="title-2">DCB Billing</div>
-            <p class="description">
-              A website redesign for a prominent and agile medical billing company and their incredible insurance
-              billing systems.
-            </p>
-          </div>
-          <div class="box">
-            <div class="title-2">Aseel</div>
-            <p class="description">An award-winning humanitarian e-commerce site for artisanal goods and services</p>
-          </div>
-          <img class="img" src="img/rectangle-7.png" />
-          <img class="screenshot" src="img/screenshot-2025-09-09-at-9-24-37-PM-1.png" />
+        <div class="frame-2">
+          <div class="text-wrapper-5">Stocks in the Future</div>
+          <p class="text-wrapper-7">
+            A Johns Hopkins University developed financial education platform to financial literacy and stock insight in
+            youth
+          </p>
+          <img class="rectangle-3" src="img/rectangle-4.png" />
         </div>
-      </div>
-      <div class="div-wrapper">
-        <div class="elements-3">
-          <div class="box">
-            <div class="title-2">Plate It Up!</div>
-            <p class="description">A gluten-free community recipe sharing app for a $65 million product industry!</p>
-          </div>
-          <img class="rectangle-2" src="img/rectangle-8.png" />
+        <div class="group-3">
+          <div class="text-wrapper-5">Aseel</div>
+          <p class="text-wrapper-6">An award-winning humanitarian e-commerce site for artisanal goods and services</p>
+          <img class="rectangle-4" src="img/rectangle-5.png" />
         </div>
-      </div>
-      <div class="div-wrapper">
-        <div class="elements-3">
-          <div class="box">
-            <div class="div">My Skill and Approach</div>
-            <p class="description-2">I frequently utilize the double-diamond method</p>
-          </div>
-          <img class="rectangle-3" src="img/rectangle-9.png" />
+        <div class="group-4">
+          <div class="text-wrapper-5">DCB Billing</div>
+          <p class="text-wrapper-6">
+            A website redesign for a prominent and agile medical billing company and their incredible insurance billing
+            systems.
+          </p>
+          <img class="rectangle-3" src="img/rectangle-6.png" />
         </div>
-      </div>
-      <div class="div-wrapper">
-        <div class="elements-3">
-          <div class="box-2">
-            <div class="div">About Me</div>
-            <p class="description-2">I frequent the double-diamond method</p>
-          </div>
-          <img class="rectangle-4" src="img/rectangle-10.png" />
-          <div class="box-2">
-            <p class="description-3">
-              Hi I&#39;m Viv! A Bay Area-based and North Carolina-dual-resident designer and dog person who dabbles in
-              welding and recreating dessert experiences with gluten and allergen free dietary needs. In my free time, I
-              volunteer as a assistant at The Made Museum in Oakland, and Stocks in the Future.
-            </p>
-          </div>
+        <div class="frame-3">
+          <div class="text-wrapper-8">Plate It Up!</div>
+          <p class="text-wrapper-9">A gluten-free community recipe sharing app for a $65 million product industry!</p>
+          <img class="rectangle-4" src="img/rectangle-7.png" />
         </div>
-      </div>
-      <div class="div-wrapper">
-        <div class="elements-3">
-          <div class="box-2">
-            <div class="div">Let’s Connect!</div>
-            <div class="description-2">I frequent the email</div>
+        <div class="overlap-group">
+          <div class="component">
+            <div class="text-wrapper-10">My Skill and Approach</div>
+            <p class="text-wrapper-11">I frequent the double-diamond method</p>
+            <img class="rectangle-5" src="img/rectangle-8.png" />
           </div>
-          <img class="screenshot-2" src="img/screenshot-2025-09-09-at-9-38-51-PM-1.png" />
-          <div class="box-3"><div class="title-3">Message</div></div>
+          <img class="img-2" src="img/tabler-phone-filled.svg" />
+          <img class="img-2" src="img/iconamoon-email-duotone.svg" />
+        </div>
+        <div class="group-5">
+          <div class="overlap-group-2">
+            <div class="text-wrapper-12">UX Designer</div>
+            <div class="text-wrapper-13">About Me</div>
+          </div>
+          <p class="hi-i-m-viv-a-bay">
+            Hi I&#39;m Viv! A Bay Area-based and North Carolina-dual-resident designer and dog person who dabbles in
+            welding and recreating dessert experiences with gluten and allergen free diet restrictions. In my free time,
+            I volunteer as a community assistant at TheMade, and Stocks in the Future.
+          </p>
+          <img class="rectangle-6" src="img/rectangle-9.png" />
+        </div>
+        <div class="navbar">
+          <div class="text-wrapper-14">Projects</div>
+          <div class="text-wrapper-14">My Skill</div>
+          <div class="text-wrapper-15">About Me</div>
+          <div class="text-wrapper-15">Contact Me</div>
+        </div>
+        <div class="overlap-2">
+          <div class="text-wrapper-16">Let’s Connect!</div>
+          <img class="line" src="img/line-1.svg" />
+        </div>
+        <div class="overlap-3">
+          <div class="rectangle-7"></div>
+          <div class="text-wrapper-17">First Name</div>
+        </div>
+        <div class="rectangle-8"></div>
+        <div class="rectangle-9"></div>
+        <div class="rectangle-10"></div>
+        <div class="overlap-4">
+          <div class="rectangle-11"></div>
+          <div class="text-wrapper-17">Last name</div>
+        </div>
+        <div class="text-wrapper-18">(Optional) Your Organization/Business Name</div>
+        <div class="text-wrapper-19">Message</div>
+        <div class="text-wrapper-20">Email</div>
+        <div class="div-wrapper"><div class="text-wrapper-21">Message</div></div>
+        <div class="tabler-phone-filled"><img class="vector" src="img/vector-3.svg" /></div>
+        <div class="iconamoon-email">
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group-3">
+              <img class="vector-2" src="img/image.svg" />
+              <img class="vector-3" src="img/vector.svg" />
+              <img class="vector-4" src="img/vector-2.svg" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
