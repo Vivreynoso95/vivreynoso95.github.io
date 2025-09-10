@@ -1,922 +1,123 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exported Figma Design</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exported Figma Design</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Inter&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="macbook-pro-16-1-1">
-<p class="h1"><span class="text-black">Designing Your Ideas</span></p>
-<img src="images/ellipse-1-3.svg" class="ellipse-1-3" alt="ellipse-1" />
-<img src="images/ellipse-2-4.svg" class="ellipse-2-4" alt="ellipse-2" />
-<img src="images/rectangle-1-5.svg" class="rectangle-1-5" alt="rectangle-1" />
-<div class="rectangle-2-6"></div>
-<div class="frame-6-7">
-<p class="h3"><span class="text-black">Hi, my name is Vivianne
- Reynoso </span></p>
-<p class="m1"><span class="text-black">Take a look at some of my work!</span></p>
+<div class="node-1">
+<div class="menu-2">
+<div class="left-3">
+<img src="images/logo-4.svg" class="logo-4" alt="logo" />
 </div>
-<div class="group-5-10">
-<p class="h2"><span class="text-black">My Projects</span></p>
-<p class="text-12"><span class="text-black">Designing your ideas into intuitive experiences that seamlessly integrate into
-
- daily lives-enhancing engagement, usability, and accessibility</span></p>
-</div>
-<div class="group-1-13">
-<p class="h3"><span class="text-black">EmPowered</span></p>
-<p class="b1"><span class="text-black">A platform to support immigrant survivors of violence oobtain greater access in the NYC legal justice system </span></p>
-<img src="images/rectangle-3-16.png" class="rectangle-3-16" alt="rectangle-3" />
-</div>
-<div class="frame-3-17">
-<p class="h3"><span class="text-black">Stocks in the Future</span></p>
-<p class="text-19"><span class="text-black">A Johns Hopkins University developed financial education platform to financial literacy and stock insight in youth</span></p>
-<img src="images/rectangle-4-20.png" class="rectangle-4-20" alt="rectangle-4" />
-</div>
-<div class="group-4-21">
-<p class="h3"><span class="text-black">Aseel</span></p>
-<p class="b1"><span class="text-black">An award-winning humanitarian e-commerce site for artisanal goods and services</span></p>
-<img src="images/rectangle-5-24.png" class="rectangle-5-24" alt="rectangle-5" />
-</div>
-<div class="group-3-25">
-<p class="h3"><span class="text-black">DCB Billing</span></p>
-<p class="b1"><span class="text-black">A website redesign for a prominent and agile medical billing company and their incredible insurance billing systems.
-</span></p>
-<img src="images/rectangle-6-28.png" class="rectangle-6-28" alt="rectangle-6" />
-</div>
-<div class="frame-5-29">
-<p class="h3"><span class="text-black">Plate It Up!</span></p>
-<p class="b1"><span class="text-black">A gluten-free community recipe sharing app for a $65 million product industry!</span></p>
-<img src="images/rectangle-7-32.png" class="rectangle-7-32" alt="rectangle-7" />
-</div>
-<div class="component-1-33">
-<p class="h2"><span class="text-black">My Skill and Approach</span></p>
-<p class="text-35"><span class="text-black">I frequent the double-diamond method</span></p>
-<img src="images/rectangle-8-36.png" class="rectangle-8-36" alt="rectangle-8" />
-</div>
-<div class="group-6-37">
-<p class="mbold1"><span class="text-black">UX Designer</span></p>
-<p class="h2"><span class="text-black">About Me</span></p>
-<p class="m1-1-medium"><span class="text-black">Hi I'm Viv! A Bay Area-based and North Carolina-dual-resident designer and dog person who dabbles in welding and recreating dessert experiences with gluten and allergen free diet restrictions. In my free time, I volunteer as a community assistant at TheMade, and Stocks in the Future.</span></p>
-<img src="images/rectangle-9-41.png" class="rectangle-9-41" alt="rectangle-9" />
-</div>
-<div class="frame-5-42">
-<p class="h1"><span class="text-black">Projects</span></p>
-<p class="h1"><span class="text-black">My Skill</span></p>
-<p class="h1"><span class="text-black">About Me</span></p>
-<p class="h1"><span class="text-black">Contact Me</span></p>
-</div>
-<div class="tabler-phone-filled-47">
-<img src="images/vector-48.svg" class="vector-48" alt="vector" />
-</div>
-<div class="node-49">
-<div class="group-50">
-<img src="images/vector-51.svg" class="vector-51" alt="vector" />
-<img src="images/vector-52.svg" class="vector-52" alt="vector" />
-<img src="images/vector-53.svg" class="vector-53" alt="vector" />
+<div class="right-5">
+<button class="button-6">
+<p class="text-7"><span class="text-white">Menu</span></p>
+</button>
 </div>
 </div>
-<p class="h2"><span class="text-black">Let’s Connect!</span></p>
-<img src="images/line-1-55.svg" class="line-1-55" alt="line-1" />
-<div class="rectangle-10-56"></div>
-<div class="rectangle-12-57"></div>
-<div class="rectangle-13-58"></div>
-<div class="rectangle-14-59"></div>
-<div class="rectangle-11-60"></div>
-<p class="text-61"><span class="text-black">(Optional) Your Organization/Business Name</span></p>
-<p class="text-62"><span class="text-black">Message</span></p>
-<p class="text-63"><span class="text-black">Email</span></p>
-<p class="text-64"><span class="text-black">Last name</span></p>
-<div class="rectangle-15-65"></div>
-<p class="text-66"><span class="text-white">Message</span></p>
-<div class="tabler-phone-filled-67">
-<img src="images/vector-68.svg" class="vector-68" alt="vector" />
+<section class="header-8">
+<div class="copy-9">
+<div class="headline-10">
+<h1 class="text-11"><span class="text-white">Designing  
+Your Ideas</span></h1>
 </div>
-<div class="node-69">
-<div class="group-70">
-<img src="images/vector-71.svg" class="vector-71" alt="vector" />
-<img src="images/vector-72.svg" class="vector-72" alt="vector" />
-<img src="images/vector-73.svg" class="vector-73" alt="vector" />
+<div class="chips-12">
+<div class="chip-13">
+<p class="text-14"><span class="text-white">Hi, I’m Vivianne</span></p>
 </div>
 </div>
+</div>
+<div class="visual-15">
+<img src="images/images-16.png" class="images-16" alt="images" />
+</div>
+</section>
+<section class="main-features-17">
+<h2 class="h2"><span class="text-white">My Projects</span></h2>
+<div class="elements-19">
+<div class="box-20">
+<p class="text-21"><span class="text-white">Designing your ideas into intuitive experiences that 
+seamlessly integrate into daily 
+lives-enhancing engagement, usability, and accessibility</span></p>
+</div>
+</div>
+</section>
+<section class="main-features-22">
+<div class="elements-23">
+<div class="box-24">
+<p class="text-25"><span class="text-white">EmPowered</span></p>
+<p class="text-26"><span class="text-light-gray">A platform to support immigrant survivors of violence obtain greater access in the NYC legal justice system</span></p>
+</div>
+<div class="box-27">
+<p class="text-28"><span class="text-white">Stocks in the Future</span></p>
+<p class="text-29"><span class="text-light-gray">A Johns Hopkins University developed financial education platform to financial literacy and stock insight in youth</span></p>
+</div>
+<img src="images/rectangle-3-30.png" class="rectangle-3-30" alt="rectangle-3" />
+<img src="images/rectangle-5-31.png" class="rectangle-5-31" alt="rectangle-5" />
+</div>
+</section>
+<section class="main-features-32">
+<div class="elements-33">
+<div class="box-34">
+<p class="text-35"><span class="text-white">DCB Billing</span></p>
+<p class="text-36"><span class="text-light-gray">A website redesign for a prominent and agile medical billing company and their incredible insurance billing systems.</span></p>
+</div>
+<div class="box-37">
+<p class="text-38"><span class="text-white">Aseel</span></p>
+<p class="text-39"><span class="text-light-gray">An award-winning humanitarian e-commerce site for artisanal goods and services</span></p>
+</div>
+<img src="images/rectangle-7-40.png" class="rectangle-7-40" alt="rectangle-7" />
+<img src="images/node-41.png" class="node-41" alt="screenshot-2025-09-09-at-9-24-37-pm-1" />
+</div>
+</section>
+<section class="main-features-42">
+<div class="elements-43">
+<div class="box-44">
+<p class="text-45"><span class="text-white">Plate It Up!</span></p>
+<p class="text-46"><span class="text-light-gray">A gluten-free community recipe sharing app for a $65 million product industry!</span></p>
+</div>
+<img src="images/rectangle-8-47.png" class="rectangle-8-47" alt="rectangle-8" />
+</div>
+</section>
+<section class="main-features-48">
+<div class="elements-49">
+<div class="box-50">
+<p class="h2"><span class="text-white">My Skill and Approach</span></p>
+<p class="text-52"><span class="text-light-gray">I frequently utilize the double-diamond method</span></p>
+</div>
+<img src="images/rectangle-9-53.png" class="rectangle-9-53" alt="rectangle-9" />
+</div>
+</section>
+<section class="main-features-54">
+<div class="elements-55">
+<div class="box-56">
+<p class="h2"><span class="text-white">About Me</span></p>
+<p class="text-58"><span class="text-light-gray">I frequent the double-diamond method</span></p>
+</div>
+<img src="images/rectangle-10-59.png" class="rectangle-10-59" alt="rectangle-10" />
+<div class="box-60">
+<p class="m1-1-medium"><span class="text-white">Hi I'm Viv! A Bay Area-based and North Carolina-dual-resident designer and dog person who dabbles in welding and recreating dessert experiences with gluten and allergen free dietary needs. In my free time, I volunteer as a assistant at The Made Museum in Oakland, and Stocks in the Future.</span></p>
+</div>
+</div>
+</section>
+<section class="main-features-62">
+<div class="elements-63">
+<div class="box-64">
+<p class="h2"><span class="text-white">Let’s Connect!</span></p>
+<p class="text-66"><span class="text-light-gray">I frequent the email </span></p>
+</div>
+<img src="images/node-67.png" class="node-67" alt="screenshot-2025-09-09-at-9-38-51-pm-1" />
+<div class="box-68">
+<p class="h1"><span class="text-white">Message</span></p>
+</div>
+</div>
+</section>
 </div>
 
 </body>
 </html>
-
-/* Add font files for Lohit Bengali */
-@font-face {
-  font-family: 'Lohit Bengali';
-  src: url('fonts/lohit-bengali.woff2') format('woff2'),
-       url('fonts/lohit-bengali.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-:root {
-  --font-family-lato: 'Lato', sans-serif;
-  --font-family-lohit-bengali: 'Lohit Bengali', sans-serif;
-  --text-black: rgba(0, 0, 0, 1);
-  --text-white: rgba(255, 255, 255, 1);
-}
-
-.text-black {
-  color: var(--text-black);
-}
-
-.text-white {
-  color: var(--text-white);
-}
-
-
-/* CSS Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.h1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lohit-bengali);
-  font-weight: normal;
-  font-size: 36px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.ellipse-1-3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  fill: rgba(245, 215, 104, 1);
-  border: none;
-  outline: none;
-}
-
-.ellipse-2-4 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  fill: rgba(245, 215, 104, 1);
-  border: none;
-  outline: none;
-}
-
-.rectangle-1-5 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  fill: rgba(245, 215, 104, 1);
-  border: none;
-  outline: none;
-}
-
-.rectangle-2-6 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(94, 89, 207, 1);
-}
-
-.h3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 72px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.m1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.frame-6-7 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 5px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h2 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 66px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-12 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 26px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.group-5-10 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 47px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 48px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.b1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-3-16 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border-radius: 3px;
-  width: 100%;
-  height: auto;
-}
-
-.group-1-13 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 32px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 48px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-19 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-4-20 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border-radius: 3px;
-  width: 100%;
-  height: auto;
-}
-
-.frame-3-17 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 32px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 48px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.b1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-5-24 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  width: 100%;
-  height: auto;
-}
-
-.group-4-21 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 32px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 48px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.b1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-6-28 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border-radius: 3px;
-  width: 100%;
-  height: auto;
-}
-
-.group-3-25 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 32px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h3 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 72px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.b1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 20px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-7-32 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border-radius: 3px;
-  width: 100%;
-  height: auto;
-}
-
-.frame-5-29 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 32px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h2 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 66px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-35 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 30px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-8-36 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  width: 100%;
-  height: auto;
-}
-
-.component-1-33 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.mbold1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 33px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.h2 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 66px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.m1-1-medium {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 30px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-9-41 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border-radius: 360px;
-  width: 100%;
-  height: auto;
-}
-
-.group-6-37 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lohit-bengali);
-  font-weight: normal;
-  font-size: 36px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.h1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lohit-bengali);
-  font-weight: normal;
-  font-size: 36px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.h1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lohit-bengali);
-  font-weight: normal;
-  font-size: 36px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.h1 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lohit-bengali);
-  font-weight: normal;
-  font-size: 36px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.frame-5-42 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 98px;
-  padding: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.vector-48 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  fill: rgba(0, 0, 0, 1);
-  border: none;
-  outline: none;
-}
-
-.tabler-phone-filled-47 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.vector-51 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  opacity: 0.1599999964237213;
-  fill: rgba(0, 0, 0, 1);
-  border: none;
-  outline: none;
-}
-
-.vector-52 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  fill: rgba(0, 0, 0, 1);
-  border: none;
-  outline: none;
-}
-
-.vector-53 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border: 2px solid rgba(0, 0, 0, 1);
-  border: none;
-  outline: none;
-}
-
-.group-50 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.node-49 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.h2 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 700;
-  font-size: 66px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.line-1-55 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border: 1px solid rgba(128, 0, 128, 1);
-  border: none;
-  outline: none;
-}
-
-.rectangle-10-56 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-.rectangle-12-57 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-.rectangle-13-58 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-.rectangle-14-59 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-.rectangle-11-60 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(0, 0, 0, 0);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-}
-
-.text-61 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 50px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-62 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 50px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-63 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 50px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.text-64 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 50px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-black);
-}
-
-.rectangle-15-65 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(201, 6, 201, 1);
-  border-radius: 50px;
-}
-
-.text-66 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  font-family: var(--font-family-lato);
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 50px;
-  text-decoration: none;
-  text-transform: none;
-  color: var(--text-white);
-}
-
-.vector-68 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  fill: rgba(201, 6, 201, 1);
-  border: none;
-  outline: none;
-}
-
-.tabler-phone-filled-67 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.vector-71 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border: 1px solid rgba(128, 0, 128, 1);
-  opacity: 0.1599999964237213;
-  fill: rgba(201, 6, 201, 1);
-  border: none;
-  outline: none;
-}
-
-.vector-72 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border: 1px solid rgba(128, 0, 128, 1);
-  fill: rgba(201, 6, 201, 1);
-  border: none;
-  outline: none;
-}
-
-.vector-73 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  border: 2px solid rgba(128, 0, 128, 1);
-  fill: rgba(201, 6, 201, 1);
-  border: none;
-  outline: none;
-}
-
-.group-70 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.node-69 {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.macbook-pro-16-1-1 {
-@media (max-width: 1440px) {
-  .macbook-pro-16-1-1 {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
-
-@media (max-width: 768px) {
-  .macbook-pro-16-1-1 {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  background-color: rgba(255, 255, 255, 1);
-}
