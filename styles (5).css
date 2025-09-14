@@ -1,4 +1,4 @@
-/* Add font files for Lohit Bengali */
+Body {/* Add font files for Lohit Bengali */
 @font-face {
   font-family: 'Lohit Bengali';
   src: url('fonts/lohit-bengali.woff2') format('woff2'),
@@ -6,8 +6,8 @@
   font-weight: normal;
   font-style: normal;
 }
-
-/* Add font files for Figtree */
+}
+Body {/* Add font files for Figtree */
 @font-face {
   font-family: 'Figtree';
   src: url('fonts/figtree.woff2') format('woff2'),
@@ -23,6 +23,7 @@
   --text-white: rgba(255, 255, 255, 1);
   --text-rgb-19-19-19: rgba(19, 19, 19, 1);
   --text-light-gray: rgba(185, 185, 185, 1);
+}
 }
 
 .text-white {
